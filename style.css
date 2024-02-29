@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:honeydew;
+
+} 
+.ss{
+    margin: 130px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.fblogo{
+    width: 45%;
+}
+h1{
+    color:rgb(29, 114, 199);
+    font-size:55px;
+    font-family: Tahoma, sans-serif;
+    margin: -130px 0px 10px;
+}
+h3{
+    color: black;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    margin: 0px 0px 10px;
+
+}
+
+
+.ss-box{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ss-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width:400px;
+    height: 350px;
+    box-shadow: -10px -10 15px rgba(0,0,0,0.1),10px 10px 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 0px;
+}
+p{
+    color: royalblue;
+}
+input{
+    width: 340px;
+    height: 50px;
+    margin: 8px 0px;
+    padding: 0px 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 10px;
+}
+input[type="submit"]{
+    background-color:rgb(32, 125, 219);
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+hr{
+    border: 1px solid #ccc;
+    width: 340px;
+    margin: 19px 0px 10px;
+}
+.new-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:rgb(44, 184, 44);
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    width: 190px;
+    height: 50px;
+    font-size: 17px;
+    margin: 1px;
+    color: white;
+    border-radius: 10px;
+}
+p{
+    margin: 1px 0px;
+    font-size: 14px;
+    font-weight: 20px;
+    font-family:  sans-serif;
+}
+span{
+    margin: 10px 0px;
+    font-size: 14px;
+    font-family: sans-serif;
+
+}
+
